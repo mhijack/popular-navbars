@@ -4,6 +4,7 @@
   "homepage": "https://mhijack.github.io/popular-navbars/",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-router": "^4.3.1",

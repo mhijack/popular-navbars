@@ -1,13 +1,18 @@
-export default (function () {
+export default (function() {
     /*
-        @params: a link config object
+        @param: {string} name
+        @returns: {string} name capitalized
+    */
+    const capitalize = name => name[0].toUpperCase().concat(name.slice(1));
+
+    /*
+        @param: {string} path to component excluding component name (ignore trailing '/')
         @returns: a function that accepts
     */
-    const generateRouterLink = configObj => {
-
-    }
+    const concatComponentPath = (pathFromCurrentFile, name) => `${pathFromCurrentFile}${capitalize(name)}/${capitalize(name)}`;
 
     return {
-        generateRouterLink
-    }
+        concatComponentPath,
+        capitalize
+    };
 })();

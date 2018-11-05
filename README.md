@@ -1,44 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Popular Navbars re-created with CSS flexbox
 
-## Available Scripts
+The project currently contains navigation bars for the following sites:
 
-In the project directory, you can run:
+1. Facebook
+2. Twitter
+3. Github
+4. Medium
+5. Slack Fund
 
-### `npm start`
+I will be constantly adding navbars as I see interesting ones! (or upon request).
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+****
+## Usage
 
-### `npm test`
+You must have npm installed on your local machine.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+    mkdir popular-navbars
 
-### `npm run build`
+    cd popular-navbars
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    git clone https://github.com/mhijack/popular-navbars.git
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+    cd popular-navbars
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm install
 
-### `npm run eject`
+    npm start
+```
+****
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TODO
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Finish routing
+* Look for more navbars
