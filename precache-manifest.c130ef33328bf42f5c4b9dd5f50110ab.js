@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/popular-navbars/static/css/main.73bfee0a.chunk.css"
   },
   {
-    "revision": "742f5ce7e3097413a848cbcdab377c96",
+    "revision": "1522d8e8adc2e5e3da3c094b674c55a6",
     "url": "/popular-navbars/index.html"
   }
 ];
