@@ -1,1 +1,0 @@
-{"version":3,"sources":["/Users/jack1/Developer/apps/popular-navbars/src/containers/Menu/Menu.css","1.05003058.chunk.css"],"names":[],"mappings":"AAAA,MACI,eAAgB,AAChB,SAAU,AACV,UAAY,CCCf","file":"1.05003058.chunk.css","sourcesContent":[".menu {\n    position: fixed;\n    top: 50vh;\n    left: 100px;\n}",".menu {\n    position: fixed;\n    top: 50vh;\n    left: 100px;\n}\n"]}
