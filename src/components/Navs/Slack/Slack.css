@@ -126,6 +126,7 @@ nav.nav__slack {
     transform: translate3d(0, 0, 0);
 }
 
+/* Mobile style */
 .slack__mobile {
     min-width: 0;
     display: none;
@@ -183,11 +184,16 @@ nav.nav__slack {
 
     justify-self: flex-start;
     align-self: flex-start;
-    margin: -50px 0 0 25px;
+    margin: -80px 0 0 25px;
     flex: 1 1 770px;
 }
 .slack__mobile .slack__list--mobile li {
+    cursor: poiner;
     display: block;
+    margin: 20px;
+}
+.slack__mobile .slack__list--mobile li a {
+    cursor: pointer;
 }
 
 /* Media Queries */

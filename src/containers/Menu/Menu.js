@@ -12,6 +12,17 @@ const Slack = lazy(() => import('../../components/Navs/Slack/Slack'));
 const Menu = props => {
     return (
         <>
+            {/* Slack Component */}
+            <Route
+                path="/slack"
+                render={props => {
+                    return (
+                        <Suspense fallback={<div>loading component</div>}>
+                            <Slack />
+                        </Suspense>
+                    );
+                }}
+            />
             <div className="menu">
                 <ul className="menu__list">
                     {NAV_NAMES.map(name => {
@@ -29,18 +40,6 @@ const Menu = props => {
                 </ul>
                 <p>Pick a brand to see its navbar created with CSS flexbox!</p>
             </div>
-
-            {/* Slack Component */}
-            <Route
-                path="/slack"
-                render={props => {
-                    return (
-                        <Suspense fallback={<div>loading component</div>}>
-                            <Slack />
-                        </Suspense>
-                    );
-                }}
-            />
         </>
     );
 };

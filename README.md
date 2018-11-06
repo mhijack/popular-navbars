@@ -10,6 +10,8 @@ The project currently contains navigation bars for the following sites:
 
 I will be constantly adding navbars as I see interesting ones! (or upon request).
 
+View the project online [here](https://mhijack.github.io/popular-navbars/)!
+
 
 ****
 ## Usage
@@ -33,6 +35,12 @@ You must have npm installed on your local machine.
 
 
 ### TODO
+
+* fix link is added directly to end of host address instead of appended to current address:
+should be
+`mhijack.github.io/popular-navbars/slack` instead of
+`mhijack.github.io/slack`
+* Fix Github returning 404 when user refresh page in a React single-page-app using react-router
 
 * Finish routing
 * Look for more navbars

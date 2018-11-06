@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import ReactDOM from 'react-dom';
 import _ from 'lodash';
 
 import whiteLogo from '../../../assets/Slack/slack_white.png';
@@ -24,6 +23,7 @@ class Slack extends Component {
     /*  Setup listener for scrolling
     */
     componentWillUnmount = () => {
+        this.handleScroll();
         window.removeEventListener('scroll', _.throttle(this.handleScroll, 20));
         window.removeEventListener('resize', _.throttle(this.handleResize, 50));
     };
@@ -146,7 +146,7 @@ class Slack extends Component {
                         ].join(' ')}
                     >
                         <img
-                            src={'/static/icons/slack/slack_white.png'}
+                            src={whiteLogo}
                             alt="slack white logo"
                             className="slack__icon slack__mobile--logo"
                         />
@@ -163,7 +163,7 @@ class Slack extends Component {
                         >
                             X
                         </a>
-                        <ul className="slack__list slack__list--mobile">
+                        <ul className="slack__list--mobile">
                             <li>
                                 <a className="slack__mobile--link">
                                     Documentation
